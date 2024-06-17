@@ -41,7 +41,7 @@ class Booking:
 def input_booking() -> Booking:
     first_name = input("Entrez le prénom : ")
     last_name = input("Entrez le nom : ")
-    total_price = int(input("Entrez le prix de la réservation : "))
+    total_price = int(input("Entrez le prix de la réservation (int) : "))
     deposit_paid = input("L'avance a-t-elle été payée ? (Oui/Non) : ").lower() == 'oui'
 
     date_str = input("Entrez la date d'arrivée (JJ/MM/AAAA) : ")
